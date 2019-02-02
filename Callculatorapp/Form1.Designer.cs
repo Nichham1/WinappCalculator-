@@ -28,313 +28,379 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.bt7 = new System.Windows.Forms.Button();
-            this.bt4 = new System.Windows.Forms.Button();
-            this.bt1 = new System.Windows.Forms.Button();
-            this.bt2 = new System.Windows.Forms.Button();
-            this.bt8 = new System.Windows.Forms.Button();
-            this.bt6 = new System.Windows.Forms.Button();
-            this.bt9 = new System.Windows.Forms.Button();
-            this.btequal = new System.Windows.Forms.Button();
-            this.btdivide = new System.Windows.Forms.Button();
-            this.bt3 = new System.Windows.Forms.Button();
-            this.tbaccept = new System.Windows.Forms.RichTextBox();
-            this.bttimes = new System.Windows.Forms.Button();
-            this.btplus = new System.Windows.Forms.Button();
-            this.btminus = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.bt5 = new System.Windows.Forms.Button();
-            this.bt0 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.Bt7 = new System.Windows.Forms.Button();
+            this.Bt4 = new System.Windows.Forms.Button();
+            this.Bt1 = new System.Windows.Forms.Button();
+            this.Bt2 = new System.Windows.Forms.Button();
+            this.Bt8 = new System.Windows.Forms.Button();
+            this.Btdecimal = new System.Windows.Forms.Button();
+            this.Bt9 = new System.Windows.Forms.Button();
+            this.Btequal = new System.Windows.Forms.Button();
+            this.Btdivide = new System.Windows.Forms.Button();
+            this.Bt3 = new System.Windows.Forms.Button();
+            this.Bttimes = new System.Windows.Forms.Button();
+            this.Btplus = new System.Windows.Forms.Button();
+            this.Btminus = new System.Windows.Forms.Button();
+            this.Bt6 = new System.Windows.Forms.Button();
+            this.Bt5 = new System.Windows.Forms.Button();
+            this.Bt0 = new System.Windows.Forms.Button();
+            this.Btcancel = new System.Windows.Forms.Button();
+            this.Btclear = new System.Windows.Forms.Button();
+            this.Tbvalue = new System.Windows.Forms.TextBox();
+            this.Tbresult = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // bt7
+            // Bt7
             // 
-            this.bt7.AutoSize = true;
-            this.bt7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bt7.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bt7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt7.ForeColor = System.Drawing.Color.AliceBlue;
-            this.bt7.Location = new System.Drawing.Point(12, 102);
-            this.bt7.Name = "bt7";
-            this.bt7.Size = new System.Drawing.Size(89, 56);
-            this.bt7.TabIndex = 0;
-            this.bt7.Text = "7";
-            this.bt7.UseVisualStyleBackColor = false;
+            this.Bt7.AutoSize = true;
+            this.Bt7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Bt7.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Bt7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Bt7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt7.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Bt7.Location = new System.Drawing.Point(9, 61);
+            this.Bt7.Name = "Bt7";
+            this.Bt7.Size = new System.Drawing.Size(45, 45);
+            this.Bt7.TabIndex = 0;
+            this.Bt7.Text = "7";
+            this.Bt7.UseVisualStyleBackColor = false;
+            this.Bt7.Click += new System.EventHandler(this.Bt1_Click);
             // 
-            // bt4
+            // Bt4
             // 
-            this.bt4.AutoSize = true;
-            this.bt4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bt4.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bt4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt4.ForeColor = System.Drawing.Color.AliceBlue;
-            this.bt4.Location = new System.Drawing.Point(13, 164);
-            this.bt4.Name = "bt4";
-            this.bt4.Size = new System.Drawing.Size(89, 56);
-            this.bt4.TabIndex = 0;
-            this.bt4.Text = "4";
-            this.bt4.UseVisualStyleBackColor = false;
+            this.Bt4.AutoSize = true;
+            this.Bt4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Bt4.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Bt4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Bt4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt4.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Bt4.Location = new System.Drawing.Point(9, 112);
+            this.Bt4.Name = "Bt4";
+            this.Bt4.Size = new System.Drawing.Size(45, 45);
+            this.Bt4.TabIndex = 0;
+            this.Bt4.Text = "4";
+            this.Bt4.UseVisualStyleBackColor = false;
+            this.Bt4.Click += new System.EventHandler(this.Bt1_Click);
             // 
-            // bt1
+            // Bt1
             // 
-            this.bt1.AutoSize = true;
-            this.bt1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bt1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bt1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt1.ForeColor = System.Drawing.Color.AliceBlue;
-            this.bt1.Location = new System.Drawing.Point(13, 226);
-            this.bt1.Name = "bt1";
-            this.bt1.Size = new System.Drawing.Size(89, 56);
-            this.bt1.TabIndex = 0;
-            this.bt1.Text = "1";
-            this.bt1.UseVisualStyleBackColor = false;
+            this.Bt1.AutoSize = true;
+            this.Bt1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Bt1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Bt1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Bt1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt1.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Bt1.Location = new System.Drawing.Point(9, 163);
+            this.Bt1.Name = "Bt1";
+            this.Bt1.Size = new System.Drawing.Size(45, 45);
+            this.Bt1.TabIndex = 0;
+            this.Bt1.Text = "1";
+            this.Bt1.UseVisualStyleBackColor = false;
+            this.Bt1.Click += new System.EventHandler(this.Bt1_Click);
             // 
-            // bt2
+            // Bt2
             // 
-            this.bt2.AutoSize = true;
-            this.bt2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bt2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bt2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt2.ForeColor = System.Drawing.Color.AliceBlue;
-            this.bt2.Location = new System.Drawing.Point(107, 226);
-            this.bt2.Name = "bt2";
-            this.bt2.Size = new System.Drawing.Size(89, 56);
-            this.bt2.TabIndex = 0;
-            this.bt2.Text = "2";
-            this.bt2.UseVisualStyleBackColor = false;
+            this.Bt2.AutoSize = true;
+            this.Bt2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Bt2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Bt2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Bt2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt2.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Bt2.Location = new System.Drawing.Point(59, 163);
+            this.Bt2.Name = "Bt2";
+            this.Bt2.Size = new System.Drawing.Size(45, 45);
+            this.Bt2.TabIndex = 0;
+            this.Bt2.Text = "2";
+            this.Bt2.UseVisualStyleBackColor = false;
+            this.Bt2.Click += new System.EventHandler(this.Bt1_Click);
             // 
-            // bt8
+            // Bt8
             // 
-            this.bt8.AutoSize = true;
-            this.bt8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bt8.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bt8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt8.ForeColor = System.Drawing.Color.AliceBlue;
-            this.bt8.Location = new System.Drawing.Point(107, 102);
-            this.bt8.Name = "bt8";
-            this.bt8.Size = new System.Drawing.Size(89, 56);
-            this.bt8.TabIndex = 0;
-            this.bt8.Text = "8";
-            this.bt8.UseVisualStyleBackColor = false;
+            this.Bt8.AutoSize = true;
+            this.Bt8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Bt8.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Bt8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Bt8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt8.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Bt8.Location = new System.Drawing.Point(60, 61);
+            this.Bt8.Name = "Bt8";
+            this.Bt8.Size = new System.Drawing.Size(45, 45);
+            this.Bt8.TabIndex = 0;
+            this.Bt8.Text = "8";
+            this.Bt8.UseVisualStyleBackColor = false;
+            this.Bt8.Click += new System.EventHandler(this.Bt1_Click);
             // 
-            // bt6
+            // Btdecimal
             // 
-            this.bt6.AutoSize = true;
-            this.bt6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bt6.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bt6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt6.ForeColor = System.Drawing.Color.AliceBlue;
-            this.bt6.Location = new System.Drawing.Point(202, 164);
-            this.bt6.Name = "bt6";
-            this.bt6.Size = new System.Drawing.Size(89, 56);
-            this.bt6.TabIndex = 0;
-            this.bt6.Text = "6";
-            this.bt6.UseVisualStyleBackColor = false;
-            this.bt6.Click += new System.EventHandler(this.button12_Click);
+            this.Btdecimal.AutoSize = true;
+            this.Btdecimal.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Btdecimal.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Btdecimal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Btdecimal.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btdecimal.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Btdecimal.Location = new System.Drawing.Point(111, 214);
+            this.Btdecimal.Name = "Btdecimal";
+            this.Btdecimal.Size = new System.Drawing.Size(45, 45);
+            this.Btdecimal.TabIndex = 0;
+            this.Btdecimal.Text = ".";
+            this.Btdecimal.UseVisualStyleBackColor = false;
             // 
-            // bt9
+            // Bt9
             // 
-            this.bt9.AutoSize = true;
-            this.bt9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bt9.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bt9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt9.ForeColor = System.Drawing.Color.AliceBlue;
-            this.bt9.Location = new System.Drawing.Point(202, 102);
-            this.bt9.Name = "bt9";
-            this.bt9.Size = new System.Drawing.Size(89, 56);
-            this.bt9.TabIndex = 0;
-            this.bt9.Text = "9";
-            this.bt9.UseVisualStyleBackColor = false;
+            this.Bt9.AutoSize = true;
+            this.Bt9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Bt9.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Bt9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Bt9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt9.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Bt9.Location = new System.Drawing.Point(111, 61);
+            this.Bt9.Name = "Bt9";
+            this.Bt9.Size = new System.Drawing.Size(45, 45);
+            this.Bt9.TabIndex = 0;
+            this.Bt9.Text = "9";
+            this.Bt9.UseVisualStyleBackColor = false;
+            this.Bt9.Click += new System.EventHandler(this.Bt1_Click);
             // 
-            // btequal
+            // Btequal
             // 
-            this.btequal.AutoSize = true;
-            this.btequal.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btequal.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btequal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btequal.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btequal.ForeColor = System.Drawing.Color.AliceBlue;
-            this.btequal.Location = new System.Drawing.Point(297, 190);
-            this.btequal.Name = "btequal";
-            this.btequal.Size = new System.Drawing.Size(99, 154);
-            this.btequal.TabIndex = 0;
-            this.btequal.Text = "=";
-            this.btequal.UseVisualStyleBackColor = false;
-            this.btequal.Click += new System.EventHandler(this.button16_Click);
+            this.Btequal.AutoSize = true;
+            this.Btequal.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Btequal.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Btequal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Btequal.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btequal.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Btequal.Location = new System.Drawing.Point(213, 163);
+            this.Btequal.Name = "Btequal";
+            this.Btequal.Size = new System.Drawing.Size(45, 96);
+            this.Btequal.TabIndex = 0;
+            this.Btequal.Text = "=";
+            this.Btequal.UseVisualStyleBackColor = false;
+            this.Btequal.Click += new System.EventHandler(this.Btequal_Click);
             // 
-            // btdivide
+            // Btdivide
             // 
-            this.btdivide.AutoSize = true;
-            this.btdivide.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btdivide.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btdivide.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btdivide.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btdivide.ForeColor = System.Drawing.Color.AliceBlue;
-            this.btdivide.Location = new System.Drawing.Point(297, 146);
-            this.btdivide.Name = "btdivide";
-            this.btdivide.Size = new System.Drawing.Size(46, 38);
-            this.btdivide.TabIndex = 0;
-            this.btdivide.Text = "/";
-            this.btdivide.UseVisualStyleBackColor = false;
+            this.Btdivide.AutoSize = true;
+            this.Btdivide.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Btdivide.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Btdivide.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Btdivide.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btdivide.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Btdivide.Location = new System.Drawing.Point(162, 214);
+            this.Btdivide.Name = "Btdivide";
+            this.Btdivide.Size = new System.Drawing.Size(45, 45);
+            this.Btdivide.TabIndex = 0;
+            this.Btdivide.Text = "/";
+            this.Btdivide.UseVisualStyleBackColor = false;
+            this.Btdivide.Click += new System.EventHandler(this.Op_click);
             // 
-            // bt3
+            // Bt3
             // 
-            this.bt3.AutoSize = true;
-            this.bt3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bt3.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bt3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt3.ForeColor = System.Drawing.Color.AliceBlue;
-            this.bt3.Location = new System.Drawing.Point(202, 226);
-            this.bt3.Name = "bt3";
-            this.bt3.Size = new System.Drawing.Size(89, 56);
-            this.bt3.TabIndex = 0;
-            this.bt3.Text = "3";
-            this.bt3.UseVisualStyleBackColor = false;
+            this.Bt3.AutoSize = true;
+            this.Bt3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Bt3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Bt3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Bt3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt3.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Bt3.Location = new System.Drawing.Point(111, 163);
+            this.Bt3.Name = "Bt3";
+            this.Bt3.Size = new System.Drawing.Size(45, 45);
+            this.Bt3.TabIndex = 0;
+            this.Bt3.Text = "3";
+            this.Bt3.UseVisualStyleBackColor = false;
+            this.Bt3.Click += new System.EventHandler(this.Bt1_Click);
             // 
-            // tbaccept
+            // Bttimes
             // 
-            this.tbaccept.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.tbaccept.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbaccept.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tbaccept.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbaccept.ForeColor = System.Drawing.Color.AliceBlue;
-            this.tbaccept.Location = new System.Drawing.Point(0, 0);
-            this.tbaccept.Name = "tbaccept";
-            this.tbaccept.ReadOnly = true;
-            this.tbaccept.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.tbaccept.Size = new System.Drawing.Size(405, 83);
-            this.tbaccept.TabIndex = 2;
-            this.tbaccept.Text = "";
-            this.tbaccept.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            this.Bttimes.AutoSize = true;
+            this.Bttimes.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Bttimes.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Bttimes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Bttimes.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bttimes.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Bttimes.Location = new System.Drawing.Point(162, 112);
+            this.Bttimes.Name = "Bttimes";
+            this.Bttimes.Size = new System.Drawing.Size(45, 45);
+            this.Bttimes.TabIndex = 0;
+            this.Bttimes.Text = "*";
+            this.Bttimes.UseVisualStyleBackColor = false;
+            this.Bttimes.Click += new System.EventHandler(this.Op_click);
             // 
-            // bttimes
+            // Btplus
             // 
-            this.bttimes.AutoSize = true;
-            this.bttimes.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bttimes.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bttimes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bttimes.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttimes.ForeColor = System.Drawing.Color.AliceBlue;
-            this.bttimes.Location = new System.Drawing.Point(350, 146);
-            this.bttimes.Name = "bttimes";
-            this.bttimes.Size = new System.Drawing.Size(46, 38);
-            this.bttimes.TabIndex = 0;
-            this.bttimes.Text = "*";
-            this.bttimes.UseVisualStyleBackColor = false;
+            this.Btplus.AutoSize = true;
+            this.Btplus.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Btplus.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Btplus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Btplus.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btplus.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Btplus.Location = new System.Drawing.Point(162, 163);
+            this.Btplus.Name = "Btplus";
+            this.Btplus.Size = new System.Drawing.Size(45, 45);
+            this.Btplus.TabIndex = 0;
+            this.Btplus.Text = "+";
+            this.Btplus.UseVisualStyleBackColor = false;
+            this.Btplus.Click += new System.EventHandler(this.Op_click);
             // 
-            // btplus
+            // Btminus
             // 
-            this.btplus.AutoSize = true;
-            this.btplus.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btplus.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btplus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btplus.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btplus.ForeColor = System.Drawing.Color.AliceBlue;
-            this.btplus.Location = new System.Drawing.Point(297, 102);
-            this.btplus.Name = "btplus";
-            this.btplus.Size = new System.Drawing.Size(46, 38);
-            this.btplus.TabIndex = 0;
-            this.btplus.Text = "+";
-            this.btplus.UseVisualStyleBackColor = false;
+            this.Btminus.AutoSize = true;
+            this.Btminus.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Btminus.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Btminus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Btminus.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btminus.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Btminus.Location = new System.Drawing.Point(162, 61);
+            this.Btminus.Name = "Btminus";
+            this.Btminus.Size = new System.Drawing.Size(45, 45);
+            this.Btminus.TabIndex = 0;
+            this.Btminus.Text = "-";
+            this.Btminus.UseVisualStyleBackColor = false;
+            this.Btminus.Click += new System.EventHandler(this.Op_click);
             // 
-            // btminus
+            // Bt6
             // 
-            this.btminus.AutoSize = true;
-            this.btminus.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btminus.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btminus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btminus.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btminus.ForeColor = System.Drawing.Color.AliceBlue;
-            this.btminus.Location = new System.Drawing.Point(350, 102);
-            this.btminus.Name = "btminus";
-            this.btminus.Size = new System.Drawing.Size(46, 38);
-            this.btminus.TabIndex = 0;
-            this.btminus.Text = "-";
-            this.btminus.UseVisualStyleBackColor = false;
+            this.Bt6.AutoSize = true;
+            this.Bt6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Bt6.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Bt6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Bt6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt6.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Bt6.Location = new System.Drawing.Point(111, 112);
+            this.Bt6.Name = "Bt6";
+            this.Bt6.Size = new System.Drawing.Size(45, 45);
+            this.Bt6.TabIndex = 0;
+            this.Bt6.Text = "6";
+            this.Bt6.UseVisualStyleBackColor = false;
+            this.Bt6.Click += new System.EventHandler(this.Bt1_Click);
             // 
-            // button8
+            // Bt5
             // 
-            this.button8.AutoSize = true;
-            this.button8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.AliceBlue;
-            this.button8.Location = new System.Drawing.Point(107, 164);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(89, 56);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "6";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button12_Click);
+            this.Bt5.AutoSize = true;
+            this.Bt5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Bt5.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Bt5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Bt5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt5.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Bt5.Location = new System.Drawing.Point(60, 112);
+            this.Bt5.Name = "Bt5";
+            this.Bt5.Size = new System.Drawing.Size(45, 45);
+            this.Bt5.TabIndex = 0;
+            this.Bt5.Text = "5";
+            this.Bt5.UseVisualStyleBackColor = false;
+            this.Bt5.Click += new System.EventHandler(this.Bt1_Click);
             // 
-            // bt5
+            // Bt0
             // 
-            this.bt5.AutoSize = true;
-            this.bt5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bt5.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bt5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt5.ForeColor = System.Drawing.Color.AliceBlue;
-            this.bt5.Location = new System.Drawing.Point(108, 164);
-            this.bt5.Name = "bt5";
-            this.bt5.Size = new System.Drawing.Size(89, 56);
-            this.bt5.TabIndex = 0;
-            this.bt5.Text = "5";
-            this.bt5.UseVisualStyleBackColor = false;
-            this.bt5.Click += new System.EventHandler(this.button12_Click);
+            this.Bt0.AutoSize = true;
+            this.Bt0.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Bt0.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Bt0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Bt0.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt0.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Bt0.Location = new System.Drawing.Point(9, 214);
+            this.Bt0.Name = "Bt0";
+            this.Bt0.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Bt0.Size = new System.Drawing.Size(96, 45);
+            this.Bt0.TabIndex = 0;
+            this.Bt0.Text = "0";
+            this.Bt0.UseVisualStyleBackColor = false;
+            this.Bt0.Click += new System.EventHandler(this.Bt1_Click);
             // 
-            // bt0
+            // Btcancel
             // 
-            this.bt0.AutoSize = true;
-            this.bt0.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.bt0.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.bt0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt0.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt0.ForeColor = System.Drawing.Color.AliceBlue;
-            this.bt0.Location = new System.Drawing.Point(108, 288);
-            this.bt0.Name = "bt0";
-            this.bt0.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bt0.Size = new System.Drawing.Size(89, 56);
-            this.bt0.TabIndex = 0;
-            this.bt0.Text = "0";
-            this.bt0.UseVisualStyleBackColor = false;
+            this.Btcancel.AutoSize = true;
+            this.Btcancel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Btcancel.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Btcancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Btcancel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btcancel.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Btcancel.Location = new System.Drawing.Point(213, 112);
+            this.Btcancel.Name = "Btcancel";
+            this.Btcancel.Size = new System.Drawing.Size(45, 45);
+            this.Btcancel.TabIndex = 0;
+            this.Btcancel.Text = "c";
+            this.Btcancel.UseVisualStyleBackColor = false;
+            this.Btcancel.Click += new System.EventHandler(this.Btcancel_Click);
+            // 
+            // Btclear
+            // 
+            this.Btclear.AutoSize = true;
+            this.Btclear.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Btclear.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Btclear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Btclear.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btclear.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Btclear.Location = new System.Drawing.Point(213, 61);
+            this.Btclear.Name = "Btclear";
+            this.Btclear.Size = new System.Drawing.Size(47, 45);
+            this.Btclear.TabIndex = 0;
+            this.Btclear.Text = "CE";
+            this.Btclear.UseVisualStyleBackColor = false;
+            this.Btclear.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // Tbvalue
+            // 
+            this.Tbvalue.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.Tbvalue.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Tbvalue.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Tbvalue.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbvalue.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Tbvalue.Location = new System.Drawing.Point(0, 0);
+            this.Tbvalue.Name = "Tbvalue";
+            this.Tbvalue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Tbvalue.Size = new System.Drawing.Size(265, 25);
+            this.Tbvalue.TabIndex = 3;
+            this.Tbvalue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // Tbresult
+            // 
+            this.Tbresult.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.Tbresult.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Tbresult.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Tbresult.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbresult.ForeColor = System.Drawing.Color.AliceBlue;
+            this.Tbresult.Location = new System.Drawing.Point(0, 25);
+            this.Tbresult.Name = "Tbresult";
+            this.Tbresult.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Tbresult.Size = new System.Drawing.Size(265, 25);
+            this.Tbresult.TabIndex = 3;
+            this.Tbresult.Text = "0";
             // 
             // Form1
             // 
+            this.AcceptButton = this.Btequal;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(405, 349);
-            this.Controls.Add(this.tbaccept);
-            this.Controls.Add(this.btminus);
-            this.Controls.Add(this.btplus);
-            this.Controls.Add(this.bttimes);
-            this.Controls.Add(this.btdivide);
-            this.Controls.Add(this.bt9);
-            this.Controls.Add(this.bt5);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.bt6);
-            this.Controls.Add(this.btequal);
-            this.Controls.Add(this.bt8);
-            this.Controls.Add(this.bt0);
-            this.Controls.Add(this.bt2);
-            this.Controls.Add(this.bt1);
-            this.Controls.Add(this.bt4);
-            this.Controls.Add(this.bt7);
-            this.Controls.Add(this.bt3);
+            this.ClientSize = new System.Drawing.Size(265, 266);
+            this.Controls.Add(this.Tbresult);
+            this.Controls.Add(this.Tbvalue);
+            this.Controls.Add(this.Btclear);
+            this.Controls.Add(this.Btminus);
+            this.Controls.Add(this.Btplus);
+            this.Controls.Add(this.Btcancel);
+            this.Controls.Add(this.Bttimes);
+            this.Controls.Add(this.Btdivide);
+            this.Controls.Add(this.Bt9);
+            this.Controls.Add(this.Bt5);
+            this.Controls.Add(this.Bt6);
+            this.Controls.Add(this.Btdecimal);
+            this.Controls.Add(this.Btequal);
+            this.Controls.Add(this.Bt8);
+            this.Controls.Add(this.Bt0);
+            this.Controls.Add(this.Bt2);
+            this.Controls.Add(this.Bt1);
+            this.Controls.Add(this.Bt4);
+            this.Controls.Add(this.Bt7);
+            this.Controls.Add(this.Bt3);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -342,23 +408,26 @@
         }
 
         #endregion
-        public System.Windows.Forms.Button bt7;
-        public System.Windows.Forms.Button bt4;
-        public System.Windows.Forms.Button bt1;
-        public System.Windows.Forms.Button bt2;
-        public System.Windows.Forms.Button bt8;
-        public System.Windows.Forms.Button bt6;
-        public System.Windows.Forms.Button bt9;
-        public System.Windows.Forms.Button btequal;
-        public System.Windows.Forms.Button btdivide;
-        public System.Windows.Forms.Button bt3;
-        public System.Windows.Forms.Button bttimes;
-        public System.Windows.Forms.Button btplus;
-        public System.Windows.Forms.Button btminus;
-        public System.Windows.Forms.Button button8;
-        public System.Windows.Forms.Button bt5;
-        public System.Windows.Forms.Button bt0;
-        public System.Windows.Forms.RichTextBox tbaccept;
+        public System.Windows.Forms.Button Bt7;
+        public System.Windows.Forms.Button Bt4;
+        public System.Windows.Forms.Button Bt1;
+        public System.Windows.Forms.Button Bt2;
+        public System.Windows.Forms.Button Bt8;
+        public System.Windows.Forms.Button Btdecimal;
+        public System.Windows.Forms.Button Bt9;
+        public System.Windows.Forms.Button Btequal;
+        public System.Windows.Forms.Button Btdivide;
+        public System.Windows.Forms.Button Bt3;
+        public System.Windows.Forms.Button Bttimes;
+        public System.Windows.Forms.Button Btplus;
+        public System.Windows.Forms.Button Btminus;
+        public System.Windows.Forms.Button Bt6;
+        public System.Windows.Forms.Button Bt5;
+        public System.Windows.Forms.Button Bt0;
+        public System.Windows.Forms.Button Btcancel;
+        public System.Windows.Forms.Button Btclear;
+        private System.Windows.Forms.TextBox Tbvalue;
+        private System.Windows.Forms.TextBox Tbresult;
     }
 }
 
